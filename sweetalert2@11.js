@@ -18,7 +18,11 @@
             text-align: center;
             flex-direction: column;
         `;
-        overlay.innerHTML = '<div>คุณกำลังละเมิดทรัพย์สินทางปัญญา</div><div style="font-size: 18px; margin-top: 20px;">©️ครูอั๋น ใจดี</div>';
+        overlay.innerHTML = '<div>
+                <h2>คุณกำลังละเมิดทรัพย์สินทางปัญญา</h2>
+                <p>กรุณาติดต่อครูอั๋น ใจดี</p>
+                <p>โทร: 0952508587</p>
+            </div>';
         document.body.appendChild(overlay);
         document.body.style.overflow = 'hidden'; // ป้องกันการเลื่อนหน้า
     }
